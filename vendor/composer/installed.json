@@ -1,0 +1,45 @@
+{
+    "packages": [
+        {
+            "name": "realcodelighter/core",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/realcodelighter/core.git",
+                "reference": "6faa3a01a832fcc956ea81f54424525991775ebd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/realcodelighter/core/zipball/6faa3a01a832fcc956ea81f54424525991775ebd",
+                "reference": "6faa3a01a832fcc956ea81f54424525991775ebd",
+                "shasum": ""
+            },
+            "time": "2022-07-04T01:35:11+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/Functions.php"
+                ],
+                "psr-4": {
+                    "CodeLighter\\": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "CodeLighter 1.0",
+            "support": {
+                "issues": "https://github.com/realcodelighter/core/issues",
+                "source": "https://github.com/realcodelighter/core/tree/1.0.0"
+            },
+            "install-path": "../realcodelighter/core"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
